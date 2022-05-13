@@ -60,6 +60,8 @@ class Nomina extends Empleado{
 
     calcularNomina(){
 
+        let empleados = new Nomina [{"nombre" : "Carlos", "apellido" : "Pineda","edad" : "30", "tipo" : "C"},{"nombre" : "Andres", "apellido" : "Perez","edad" : "31", "tipo" : "C"},{"nombre" : "Juab", "apellido" : "Gomez","edad" : "32", "tipo" : "S"}]
+
         let empleado1 = new Nomina ("Carlos","Pineda",30,C);
         let empleado2 = new Nomina ("Andres","Perez",31,C);
         let empleado3 = new Nomina ("Roberto","Jimenez",32,S);
